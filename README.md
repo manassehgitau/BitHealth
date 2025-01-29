@@ -26,14 +26,17 @@ A website for a tech start-up specializing in smartwatches
 
 BitHealth is a tech business specialising in smartwatches. These wearables are designed to track individual health metrics in real-time while automatically logging data to BitHealth's secure infrastructure. Once collected, this essential information is processed and transferred directly to the healthcare facility where the individual is registered, allowing medical specialists to give timely interventions as needed.
 
-Features of the Smartwatch:
+### Features of the Smartwatch:
+---
+
 1. Health Sensors: The smartwatch tracks critical health indicators such as heart rate, blood pressure, and oxygen levels, providing valuable insights into its users' well-being. It is equipped with various health sensors.
 2. IoT Connectivity: The smartwatch effortlessly connects with other devices, leveraging the Internet of Things (IoT) and enabling a comprehensive health monitoring ecosystem that enhances user experience and data accuracy.
 3. AI Integration: Utilizing artificial intelligence, the smartwatch analyzes the collected data to offer personalized health tips and alerts, helping users maintain optimal health and stay informed about potential health concerns.
 4. Assisted Living Features: Designed with the needs of seniors in mind, the device includes features that assist with daily living activities, such as medication reminders and emergency alerts, promoting independence and peace of mind.
 
 
-Sections of the website:
+### Sections of the website:
+---
 
 - Landing Page: A visually appealing and informative landing page that introduces visitors to Bit Health and its revolutionary smartwatch.
 - Device Features: A dedicated section highlighting the unparalleled capabilities of the smartwatch, showcasing how it stands out in the market.
