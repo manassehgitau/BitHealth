@@ -2,7 +2,7 @@
 <br/>
 <div align="center">
 <a href="https://github.com/manassehgitau/BitHealth">
-<!-- <img src="./assets/imgs/bithealth.logo.png" alt="Logo" width="80" height="80"> -->
+<img src="./assets/imgs/bitHealth.png" alt="Logo" width="80" height="80">
 </a>
 <h3 align="center">BitHealth</h3>
 <p align="center">
