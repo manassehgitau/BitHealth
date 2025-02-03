@@ -6,12 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BitHealth</title>
   <link rel="icon" href="./assets/imgs/bitHealth.png">
-  <!-- <link rel="stylesheet" href="./assets/css/output-style.css"> -->
+  <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 </head>
 
-<body class="m-0 p-0 bg-origin-border bg-[#080f18] text-white">
+<body class="m-0 p-0 bg-origin-border bg-[#080f18] text-white overflow-x-hidden">
   <header class="t-0 w-screen">
     <nav class="flex flex-row justify-between sm:justify-around items-center text-base px-0 py-3">
       <a class="w-30 h-30 p-0 cursor-pointer" href="#">
@@ -65,48 +65,144 @@
         <p class="text-4xl pl-3 pr-20 sm:pr-5 hover:text-[#0fabf3] transition-colors duration-300 cursor-pointer"><i class="fa-solid fa-circle-play"></i></p>
         <p class="text-2xl self-center bg-gradient-to-bl  from-[#fff] to-[#64748b] bg-clip-text text-transparent capitalize tracking-wide font-light"> Your gateway to medical responsibility</p> 
       </div> -->
+      <p class="text-md mb-6 text-[#fff]">Download the App on</p>
+      <div class="hero-buttons flex items-center justify-center mb-8">
+        <button
+          class="bg-white text-black text-md font-medium px-5 py-3 rounded-lg mr-5 hover:text-[#9ca3af] transition-colors duration-300">Google Play</button>
+        <button
+          class="bg-[#5f79fa] text-white text-md font-medium px-5 py-3 rounded-lg ml-5 hover:bg-white hover:text-black transition-colors duration-300"><i
+            class="fa-brands fa-github"></i> Apple Store</button>
+      </div>
     </div>
 
     <div class="explore-features-grid my-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 justify-items-center">
-      <div class="grid-item w-72 xl:w-sm h-lg border-[#64748b] border-2 rounded-2xl p-xl">
+      <div class="grid-item w-80 md:w-80 lg:w-sm h-lg border-[#64748b] border-2 rounded-2xl p-xl">
         <div class="img-wrapper bg-[#0e151d] m-5">
-          <p class="bg-gradient-to-bl from-[#dfb9b9] to-[#0fabf3] bg-clip-text text-transparent text-5xl md:text-9xl px-5 py-7 md:px-12 md:py-15 text-center rounded-2xl"><i class="fa-solid fa-network-wired"></i></p>
+          <p class="bg-gradient-to-bl from-[#dfb9b9] to-[#0fabf3] bg-clip-text text-transparent text-5xl md:text-7xl px-5 py-7 md:px-12 md:py-15 text-center rounded-2xl object-fit"><i class="fa-solid fa-network-wired"></i></p>
         </div>
         <div class="text flex justify-end content-center pr-9 mb-1 text-[#64748b]">
           <p>Accredited By: CAK</p>
         </div>
 
       </div>
-      <div class="grid-item w-72 xl:w-sm h-lg border-[#64748b] border-2 rounded-2xl p-xl">
+      <div class="grid-item w-80 md:w-80 lg:w-sm h-lg border-[#64748b] border-2 rounded-2xl p-xl">
         <div class="img-wrapper bg-[#0e151d] m-5">
-          <p class="bg-gradient-to-bl from-[#dfb9b9] to-[#0fabf3] bg-clip-text text-transparent text-5xl md:text-9xl px-5 py-7 md:px-12 md:py-15 text-center rounded-2xl"><i class="fa-solid fa-robot"></i></p>
+          <p class="bg-gradient-to-bl from-[#dfb9b9] to-[#0fabf3] bg-clip-text text-transparent text-5xl md:text-7xl px-5 py-7 md:px-12 md:py-15 text-center rounded-2xl object-fit"><i class="fa-solid fa-robot"></i></p>
         </div>
         <div class="text flex justify-end content-center pr-9 mb-1 text-[#64748b]">
           <p>Award Winner</p>
         </div>
       </div>
-      <div class="grid-item w-72 xl:w-sm h-lg border-[#64748b] border-2 rounded-2xl p-xl">
+      <div class="grid-item w-80 md:w-80 lg:w-sm h-lg border-[#64748b] border-2 rounded-2xl p-xl">
         <div class="img-wrapper bg-[#0e151d] m-5">
-          <p class="bg-gradient-to-bl from-[#dfb9b9] to-[#0fabf3] bg-clip-text text-transparent text-5xl md:text-9xl px-5 py-7 md:px-12 md:py-15 text-center rounded-2xl"><i class="fa-solid fa-user-nurse"></i></p>
+          <p class="bg-gradient-to-bl from-[#dfb9b9] to-[#0fabf3] bg-clip-text text-transparent text-5xl md:text-7xl px-5 py-7 md:px-12 md:py-15 text-center rounded-2xl object-fit"><i class="fa-solid fa-user-nurse"></i></p>
         </div>
         <div class="text flex justify-end content-center pr-9 mb-1 text-[#64748b]">
           <p>Certified By: MoH</p>
         </div>
       </div>
-      <div class="grid-item w-72 xl:w-sm h-lg border-[#64748b] border-2 rounded-2xl p-xl">
+      <div class="grid-item w-80 md:w-80 lg:w-sm h-lg border-[#64748b] border-2 rounded-2xl p-xl">
         <div class="img-wrapper bg-[#0e151d] m-5 ">
-          <p class="bg-gradient-to-bl from-[#dfb9b9] to-[#0fabf3] bg-clip-text text-transparent text-5xl md:text-9xl px-5 py-7 md:px-12 md:py-15 text-center rounded-2xl"><i class="fa-solid fa-weight-scale"></i></p>
+          <p class="bg-gradient-to-bl from-[#dfb9b9] to-[#0fabf3] bg-clip-text text-transparent text-5xl md:text-7xl px-5 py-7 md:px-12 md:py-15 text-center rounded-2xl object-fit"><i class="fa-solid fa-weight-scale"></i></p>
         </div>
         <div class="text flex justify-end content-center pr-9 mb-1 text-[#64748b]">
           <p>Tested Sensors</p>
         </div>
       </div>
     </div>
+
+    <div class="technologies-used flex flex-row items-center justify-center">
+      <p class="text-[#d9faff] p-3 text-2md text-center font-semibold">Built with latest technology</p>
+    </div>
+
+    <div class="icons">
+      <ul class="icon flex flex-row justify-center content-center">
+        <li><a href="#" class="text-4xl text-[#afbcfd] hover:text-white transition-colors duration-300 px-3"><i
+              class="fa-brands fa-bootstrap"></i></a></li>
+        <li><a href="#" class="text-4xl text-[#afbcfd] hover:text-white transition-colors duration-300 px-3"><i
+              class="fa-brands fa-css"></i></a></li>
+        <li><a href="#" class="text-4xl text-[#afbcfd] hover:text-white transition-colors duration-300 px-3"><i
+              class="fa-brands fa-react"></i></a></li>
+        <li><a href="#" class="text-4xl text-[#afbcfd] hover:text-white transition-colors duration-300 px-3"><i
+              class="fa-brands fa-android"></i></a></li>
+        <li><a href="#" class="text-4xl text-[#afbcfd] hover:text-white transition-colors duration-300 px-3"><i
+              class="fa-brands fa-app-store-ios"></i></a></li>
+      </ul>
+    </div>
   </section>
 
-  <section class="about">
+  <section class="about text-black bg-[#fff] flex flex-col my-24 py-10 mx-5 justify-center content-center rounded-xl">
+    <div class="intro self-center">
+      <p class="text-xl text-center">⭐⭐⭐⭐⭐</p>
+      <p class="text-md text-[#64748b] text-center my-2">Trusted by  20k+ People</p>
+      <h3 class="text-center text-3xl font-bold my-4">About Us</h3>
+    </div>
+
+    <div class="ceo self-center my-3">
+      <h4 class="text-xl font-semibold text-center">Alexander Plank</h4>
+      <p class="text-[#64748b] text-center text-md">CEO of BitHealth</p>
+    </div>
     
+
+    <div class="features-company mt-6 mb-8 px-1 mx-5 self-center bg-[#f9fafb] shadow-2xl rounded-2xl lg:grid grid-cols-4 lg:pt-5 lg:mt-" >
+      <div class="feature px-6 py-5 border-2 border-[#f9fafb]">
+        <p class="icon text-4xl"><i class="fa-regular fa-clock"></i></p>
+        <h4 class="service text-xl pt-5 pb-3 font-semibold">Real-time Health Monitoring</h4>
+        <p class="details py-2 text-md text-[#64748b]">
+          Our smartwatches offer continuous, real-time health monitoring that 
+          provides users with accurate data on key health metrics. 
+        </p>
+      </div>
+      
+      <div class="feature mt-6 px-6 py-5 border-2 border-[#f9fafb]">
+        <p class="icon text-4xl"><i class="fa-solid fa-wifi"></i></p>
+        <h4 class="service text-xl pt-5 pb-3 font-semibold">IoT-Enabled Devices</h4>
+        <p class="details py-2 text-md text-[#64748b]">
+          Our smartwatches are designed to be part of a broader Internet of Things 
+          (IoT) ecosystem. They connect effortlessly with other smart devices. 
+        </p>
+      </div>
+
+      <div class="feature mt-6 px-6 py-5 border-2 border-[#f9fafb]">
+        <p class="icon text-4xl"><i class="fa-solid fa-rocket"></i></p>
+        <h4 class="service text-xl pt-5 pb-3 font-semibold">AI-Powered Insights</h4>
+        <p class="details py-2 text-md text-[#64748b]">
+          Our AI algorithms analyze the data in real time to provide 
+          users with personalized health insights and actionable recommendations.  
+        </p>
+      </div>
+
+      <div class="feature my-6 px-6 py-5 border-2 border-[#f9fafb]">
+        <p class="icon text-4xl"><i class="fa-solid fa-ear-listen"></i></p>
+        <h4 class="service text-xl pt-5 pb-3 font-semibold">Assisted Living</h4>
+        <p class="details py-2 text-md text-[#64748b]">
+          BitHealth smartwatches come equipped with features designed to assist 
+          with daily living and health management. Medication reminders help seniors maintain their health routines 
+        </p>
+      </div>
+    </div>
+
+    <div class="year-founded rounded-2xl mt-6 mb-8 px-4 mx-5 self-center bg-[#f9fafb] shadow-2xl border-1 border-[#444] rounded-2xl lg:grid grid-cols-2 justify-items-center items-center justify-center">
+      <div class="self-center">
+        <p class="year pt-4 pb-12 text-lg"> <i class="fa-solid fa-lightbulb"></i> <span class="pl-3">Since 2005</span> </p>
+        <p class="clients text-5xl font-semibold text-[#0fabf3] py-4">236,547</p>
+        <p class="font-bold text-md pt-5 pb-7">Number of clients we have served with our digital excellence with innovation, collaboration and passion</p>
+        <div class="services pb-5">
+          <div class="service flex flex-row flex-wrap lg:flex-nowrap">
+            <p class="border-1 border-[#64748b] text-[#64748b] px-2 py-1 rounded-xl mr-0.6 my-1 mr-3">IoT-Enabled Devices</p>
+            <p class="border-1 border-[#64748b] text-[#64748b] px-2 py-1 rounded-xl mr-0.6 my-1 mr-3">AI-Powered Insights</p>
+            <p class="border-1 border-[#64748b] text-[#64748b] px-2 py-1 rounded-xl mr-0.6 my-1 mr-3">Assisted Living</p>
+            <p class="border-1 border-[#64748b] text-[#64748b] px-2 py-1 rounded-xl mr-0.6 my-1 mr-3">Real-time Health Monitoring</p>
+          </div>
+      </div>
+      </div>
+      <div class="img flex justify-center content-center mx-auto lg:self-end">
+        <img src="./assets/imgs/watches/healhsensors-removebg-preview.png" alt="">
+      </div>
+    </div>
+
   </section>
+
   <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </body>
 

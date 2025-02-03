@@ -89,8 +89,8 @@ To run the project locally use the following steps
  ##  Development Roadmap
 
 - [x] Navigation  Bar
-- [ ] Hero Section
-- [ ] Services and  About section
+- [x] Hero Section
+- [x] Services and  About section
 - [ ] Prices and team section
 - [ ] footer section
 - [ ] Additional Features
