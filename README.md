@@ -10,6 +10,9 @@ A website for a tech start-up specializing in smartwatches
 <br/>
 <br/>
 <a href="https://github.com/manassehgitau/BitHealth/blob/main/README.md"><strong>Explore the docs »</strong></a>
+ <br />
+ <br />
+<a href="https://github.com/manassehgitau/BitHealth/blob/main/README.md](https://www.canva.com/design/DAF_ycM3wBI/eg9OvrqC8Zj7PkHeUQ16rg/view?utm_content=DAF_ycM3wBI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9f1517011b)"><strong>See the Presentation »</strong></a>
 <br/>
 <br/>
 <a href="https://manassehgitau.github.io/BitHealth/">View Demo .</a>  
