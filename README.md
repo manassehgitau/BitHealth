@@ -91,8 +91,8 @@ To run the project locally use the following steps
 - [x] Navigation  Bar
 - [x] Hero Section
 - [x] Services and  About section
-- [ ] Prices and team section
-- [ ] footer section
+- [x] Prices and team section
+- [x] footer section
 - [ ] Additional Features
   - [ ] Blog Section
   - [ ] Redirect to active blog posts
